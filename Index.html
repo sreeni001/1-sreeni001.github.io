@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accord web page</title>
+    <style>
+        body{padding:0;
+            margin:0;
+            background: linear-gradient(45deg,black,rgb(8, 9, 99),darkgrey);
+            background-attachment: fixed;
+           
+            
+           
+            }
+    
+        .div-1 figure {
+            height:130px;
+            width:250px;
+          
+           background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/90/Holloways_beach_1920x1080.jpg");
+           background-size:cover;
+          
+           
+        }
+        .div-1 figure .overlay{  height:130px;
+                                width:250px;
+                                background: rgba(0,196,255,.5);
+          }
+      .div-1  .fig-1{font-size:20px;
+                    margin-top:-50px;
+                    margin-left:55px;
+                        position: relative;
+                        color:white;
+                        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        box-sizing: border-box;
+                        }
+
+
+
+
+
+
+
+        .div-2{display:flex;
+                }
+        .div-a{margin-left:40px;
+             margin-top:15px;
+        }
+        .div-a .span-1{font-size:100px;
+                    padding:10px;
+            background-color: rgba(219, 31, .69,0.7);
+                    color: ivory;
+                   }
+        .div-a .a-1{
+                 margin-top:-25px;
+                 color:ivory;
+                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 text-align: center;
+
+                        }
+        .div-b{margin-left:10px;
+                color:ivory;
+               text-align: center;
+                margin-top:15px;
+        }
+        .div-b .span-2{font-size:100px;
+                    padding:10px;
+                    color:ivory;
+            background-color: rgba(77, 121, .77,0.7);}
+        .div-b .b-1{
+                 margin-top:-25px;
+                 color:ivory;
+                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 text-align: center;
+                        }
+
+
+
+
+
+
+
+        .div-3 figure {
+            height:200px;
+            width:250px;
+        
+           background-image: url("https://i.redd.it/gwqlnnyuzux31.png");
+           background-size:cover;
+           background-position: center;
+          
+           
+        }
+        .div-3 figure .overlay-1{  height:200px;
+                                width:250px;
+                                background: rgba(255,0,47,.55);
+          }
+      .div-3  .fig-2{font-size:20px;
+                    margin-top:-50px;
+                    margin-left:55px;
+                        position: relative;
+                        color:white;
+                        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        box-sizing: border-box;
+                        }
+        
+
+
+
+
+
+        .div-4 figure {
+            height:130px;
+            width:250px;
+          
+           background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/90/Holloways_beach_1920x1080.jpg");
+           background-size:cover;}
+        
+        .div-4 figure .overlay-2{  height:130px;
+                                width:250px;
+                                background: rgba(0,196,255,.5);
+          }
+      .div-4  .fig-3{font-size:20px;
+                    margin-top:-41px;
+                    margin-left:40px;
+                    text-align: center;
+                    position: relative;
+                    color:white;
+                    background-color: rgb(203, 214, 48);
+                    width:250px;
+                    height:25px;
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        }
+
+
+
+
+
+
+        .div-5{background-color:white;
+               
+                border-top:5px solid rgb(182, 48, 48) ;
+                width: 75%;
+                margin-top:-632px;
+                margin-left:300px;
+                background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b4/Brighton-Le-Sands.jpg");
+                background-size: cover;}
+        .div-5 .divsub-5 {padding:40px;
+        margin:0;
+        background: linear-gradient(to right,rgba(255,255,255,1) 40%,rgba(255,255,255,0));}
+        .div-5 .divsub-5 .headings{margin-left:20px;
+                        border-left:5px solid rgb(182, 48, 48) ;
+                        padding: 0 0 0 10px;
+                        margin-bottom:-30px;}
+        .div-5  .divsub-5 .headings h3{color:rgb(182, 48, 48);
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+        .div-5 .divsub-5 .headings h2{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-size:50px ;
+                        margin-top:-20px;}
+        
+         .div-5 .divsub-5 ul li{text-transform: uppercase;
+                 padding:5px;
+                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                 }
+         .div-5 .divsub-5 button{background-color:rgb(182, 48, 48);
+                color:white;
+                border:none;
+                outline: none;
+                padding:5px;
+                width:90px;
+                margin-left:20px;
+                
+                }
+
+
+        .cards{display:flex;
+             width: 75%;   
+           margin-left:300px;
+           height:300px;
+           }
+        .cards .card-1, .cards .card-2 ,.cards .card-3{ height:inherit;
+                                 width:100%;
+                                 margin:10px;
+                                 padding: 0.9%;
+                                overflow: hidden;
+                            
+               
+               
+                }
+               
+         .cards .card-1 img, .cards .card-2 img,.cards .card-3 img{ height:inherit;
+                                                                        width:inherit;
+                                             border-top:  2px solid rgb(0, 153, 255);
+                                               border-radius: 20px;                       }
+        
+        .cards .card-1 .head1, .cards .card-2  .head2,.cards .card-3 .head3{ height:50%;
+                                                                width:inherit;
+                                                                border:  2px solid rgb(0, 153, 255);
+                                                               padding: 10px 0 0 0;
+                                                               text-align: center;
+                                                                box-sizing: border-box;
+                                                               font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                                                                background-color: white;
+                                                                transform:translateY(0%);
+                                                                transition: all  .7s;
+                                                              
+                                                                border-radius: 20px;  }
+        .card-1 img:hover  ~ .head1 ,.card-2 img:hover  ~ .head2 ,.card-3 img:hover  ~ .head3 {transform: translateY(-100%);}
+        
+            .cards h2{color:rgb(0, 153, 255);
+                       font-size: 20px;}
+            .cards h3{font-size: 13px;
+                        margin-top: -10px;}
+            .cards .heads { border-bottom:3px solid rgb(0, 153, 255) ;
+                     
+            }
+            
+
+
+
+        .div-6{background-color:white;
+               
+               border-top:5px solid rgb(228, 138, 21) ;
+               width: 75%;
+               
+              margin-top: 40px;
+              margin-bottom: 20px;
+               margin-left:300px;
+               background-image: url("https://img2.fonwall.ru/o/zo/autumn-bench-chair-fall.jpeg");
+                
+               background-origin: border-box;
+               background-repeat: no-repeat;
+               background-size:inherit;
+               background-position: 100%;}
+         .div-6 .divsub-6 {padding:40px;
+                     margin:0;
+                     
+        background: linear-gradient(90deg,rgba(255,255,255,1) 30%,rgba(255,255,255,0));}
+        .div-6 .divsub-6 .headings1{margin-left:20px;
+                        border-left:5px solid rgb(228, 138, 21) ;
+                        padding: 0 0 0 10px;
+                        margin-bottom:-30px;}
+        .div-6  .divsub-6 .headings1 h3{color:rgb(228, 138, 21);
+                    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+        .div-6 .divsub-6 .headings1 h2{font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        font-size:50px ;
+                        margin-top:-20px;}
+
+
+
+
+
+
+        .footmaker{display:flex;
+            margin-left:300px;
+            width:75%;}
+        .sidebar {background-color: white;
+            
+                    width:70%;
+                    border-top: 5px solid rgb(33, 192, 19);
+                    margin:2px;
+                    
+                   }
+        
+        .sidebar ul{list-style-type: none;}
+          .sidebar ul li{padding: 15px;
+                       text-align: justify;
+                        text-decoration: none;
+                        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        border-bottom:1px dotted black;
+                        width:70%;
+                        }  
+        .sidebar ul li a{ text-decoration: none;}
+        
+        .sidebar ul li a{color:black}
+        .sidebar ul li .active{color:rgb(33, 192, 19)}
+          
+
+
+
+
+
+
+
+
+        .footer{background-color:white;
+                width:100%;
+                margin-left: 15px;
+                padding:70px 0 20px 50px;
+                box-sizing: border-box;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                  border-top: 5px solid rgb(33, 192, 19);
+                }
+        .footer img{width:80%;
+                    height:200px;}
+                    .headings2 h2{color:rgb(33, 192, 19)}
+
+        .headings2{padding:0 0 0 10px;
+                 border-left:5px solid rgb(33, 192, 19) ;}
+        
+
+
+
+         @media only screen and  (max-width:500px)
+         {
+            .div-1 figure  {width:100%;
+                            margin: 10px;}
+            .div-1 figure .overlay{width:100%;
+                                margin: 0px;}
+            .div-3 figure  {width:100%;
+                            
+                             margin: 10px;}
+            .div-3 figure .overlay-1{width:100%;   
+                                    margin: -5px 0 0 0 ;
+                                    }
+            .div-2{width:100%;
+            margin: 0;}
+            .div-2 .div-a {margin-left:10px;
+                    width:100%;
+                    margin-top:30px;}
+             .div-2 .div-a .span-1{
+                                 text-align: center;   }
+             .div-2 .a-1{font-size: 25px;
+                        margin-left: 0;
+                        text-align: center;
+                        position: relative;
+                        margin-top: -30px;}
+            .div-2 .div-b{width: 100%;
+                margin-top:30px;
+                margin-right:-10px;
+                }
+            .div-2 .b-1{font-size: 25px;
+                             margin-left: 0;
+                        text-align: center;
+                        
+                        margin-top: -30px;}
+
+
+           .div-2 .div-b .span-2{
+                        text-align: center;}
+             .div-4 figure  {width:100%;
+                            margin: 23px 10px 10px 10px;}
+            .div-4 figure .overlay-2{width:100%;
+                                margin: 0px;}
+            .div-4  .fig-3{width:100%;
+                            margin-top: -34px;
+                            margin-left: 9px;}
+             .div-1 img,.div-2 img ,.div-3 img,.div-4 img{width:100%;}
+             .div-5{
+                margin:10px;
+                width:100%;
+                    }
+        
+         .div-5 .divsub-5 {width:100%;
+                        padding:5px;}
+         .div-5 ul li{padding-top: 15px;}
+         .div-5 .divsub-5 .headings h2{font-size: 35px;
+                            }
+            .div-5 .divsub-5 {background: linear-gradient(to right,rgba(255,255,255,1) 10%,rgba(255,255,255,0)) ;}
+            .div-5 ul li{font-size: 13px;}
+        .cards{width:100%;
+        display:block;
+        margin-left:0px;}
+        .div-6 {width:100%;
+        margin:650px 0 0 10px ;
+                }
+        .div-6 .divsub-6 .headings1 h2{font-size:25px;}
+        .div-6 .divsub-6 .headings1 h3{font-size: 15px;}
+        .sidebar{width:100%;
+        box-sizing: border-box;
+            
+               }
+     
+         .footer{width:100%;margin-left:0px;
+         }
+         .footmaker{width:100%;
+         display:block;
+            margin-top: 10px;
+            margin-left: 10px;}
+         }
+
+
+
+/*@media only screen and (min-width: 400px) and (max-width:499px){ .sidebar{width:100%;
+                                                                                    overflow: hidden;}
+                                                                     .footer{margin-left:-0px}
+                                                                    .footmaker{display:block}
+                                                                    .cards {height:150px}
+                                                                    .cards h2{color:rgb(0, 153, 255);
+                                                                            font-size: 10px;}
+                                                                    .cards h3{font-size: 8px;
+                                                                                margin-top: -10px;
+                                                                                margin-bottom:0px}
+                                                                     .cards .heads { border-bottom:1px solid rgb(0, 153, 255) ;}
+                                                                    .cards p{font-size: 9px;
+                                                                    margin-top: 0px;}}*/
+
+        @media only screen and (min-width: 500px) and (max-width:630px){
+            .body{width:100%;}
+            .div-2{width:100%;
+            margin: 0;}
+           
+             .div-2 .div-a .span-1{
+                                 text-align: center;   }
+             .div-2 .a-1{font-size: 25px;
+                        margin-left: 0;
+                        text-align: center;
+                        position: relative;
+                        margin-top: -30px;}
+           
+            .div-2 .b-1{font-size: 25px;
+                             margin-left: 0;
+                        text-align: center;
+                        
+                        margin-top: -30px;}
+            .div-5{ margin-top:-638px;
+                     border-top:4px solid  rgb(182, 48, 48)}
+           .div-2 .div-b .span-2{
+                        text-align: center;}
+            .cards {height:150px}
+            .cards h2{color:rgb(0, 153, 255);
+                       font-size: 12px;}
+            .cards h3{font-size: 10px;
+                        margin-top: -10px;}
+            .cards p{font-size: 10px;
+            margin-top: 0px;}
+            .cards .card-1 .head1, .cards .card-2  .head2,.cards .card-3 .head3{padding:0}
+            .sidebar ul li{width:85%;}
+            .sidebar{width:100%;}
+            .footer{margin-left:-0px}
+            .footmaker{display:block}
+        }    
+        @media only screen and (min-width: 631px) and (max-width:920px) {.sidebar{width:100%;}
+                                                                    .sidebar ul li {text-align: center;}
+                                                                     .footer{margin-left:-0px}
+                                                                     .footmaker{display:block}}
+    </style>
+</head>
+<body>
+    <div class="div-1">
+        <figure><div class="overlay"></div></figure>
+      <figcaption class="fig-1">HOME</figcaption>
+    </div>
+    <div class="div-2">
+        <div  class="div-a">
+        <div class="span-1">&#9822</div>
+        <div class="a-1">ABOUT</div>
+        </div>
+        <div  class="div-b"><div class="span-2">&#9743</div>
+   
+        <div class="b-1">CONTACT</div> </div>
+    </div>
+    <div class="div-3">
+        <figure><div class="overlay-1"></div></figure>
+      <figcaption class="fig-2">GALLERY</figcaption>
+    </div>
+    <div class="div-4">
+        <figure><div class="overlay-2"></div></figure>
+      <figcaption class="fig-3">LOREM IPSUM</figcaption>
+    </div>
+    <div class="div-5">
+      <div class="divsub-5">
+        <div class="headings">
+            <h3>WELCOME TO</h3>
+        <h2>ACCORD</h2> </div>
+       
+        <ul>
+        <li>THIS IS A FREE BOOTSTRAP THEME BY TEMPLATEDEMO</li>
+        <li> assumenda natus soluta quas magnam dicta as.</li>
+        <li> assumenda natus soluta quas magnam dicta as.</li>
+        <li> assumenda natus soluta quas magnam dicta as.</li>
+        <li> assumenda natus soluta quas magnam dicta as.</li></ul>
+        <button>JOIN US</button></div>
+       
+        
+    </div>
+    
+    <div class="cards">
+    <div class="card-1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Brighton-Le-Sands.jpg" alt="">
+        <div class="head1">
+           <div class="heads"><h2>OUR RECORD</h2>
+           <h3>SEE IT IN GALLERY</h3></div>
+           <p>WHO WE ARE!</p>
+        </div>
+    </div>
+    <div class="card-2">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Salle_des_catalogues_de_la_Bibliotheque_Mazarine_Paris.jpg" alt="">
+        <div class="head2">
+            <div class="heads"><h2>OUR OFFICE</h2>
+            <h3>OUR PERFECTIONS</h3></div>
+            <p>WHAT WE DO!</p>
+            </div>
+
+        </div>
+    <div class="card-3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Croydon_clocktower.jpg" alt="">
+        <div class="head3">
+            <div class="heads"><h2>YOUR LIFE</h2>
+            <h3>OUR PASSION</h3></div>
+            <p>WHY CHOOSE US!</p>
+    </div>
+</div>
+</div>
+
+
+<div class="div-6">
+    <div class="divsub-6">
+      <div class="headings1">
+          <h3>WE SUPPORT YOU</h3>
+      <h2>COME'ON</h2> </div>
+     </div>
+     </div>
+
+
+     <div class="footmaker">
+
+     <div class="sidebar">
+            
+         <ul>
+        <li><a href="" class="active"> GENERAL</a></li>
+        
+         <li><a href="">SPECIAL</a></li>
+        
+         <li><a href="">SUPERB</a></li>
+        
+         <li><a href="">BEST</a></li>
+         
+         <li><a href="">LAST</a></li>
+        
+         <li><a href="">LASTBEST</a></li>
+        
+         <li><a href="">WEAR</a></li>
+         
+         <li><a href="">TEAR</a></li>
+         
+         <li><a href="">BEAR</a></li></ul>
+     </div>
+     <div class="footer">
+         <div class="headings2">
+            <h2>OUR PROFILE</h2>
+            <h3>WE ARE WITH YOU</h3>
+         </div>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Brighton-Le-Sands.jpg" alt="">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione consequuntur maxime explicabo est, dolorem consequatur vel modi nemo obcaecati suscipit in quia, ea perspiciatis inventore quaerat vero possimus quisquam laudantium?</p>
+     </div>
+    </div>
+</body>
+</html>
